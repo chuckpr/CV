@@ -1,0 +1,285 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{\textbf{Charles Pepe-Ranney}}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = blue,
+  pdfauthor = {\name},
+  pdfkeywords = {},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={7.0in, 9.5in},
+  left=0.75in,
+  top=0.60in,
+  bottom=0.60in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\itshape\large}
+\subsectionfont{\rmfamily\mdseries\itshape\normalsize}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+% include multibib package
+%\usepackage{multibib}
+
+\begin{document}
+
+% Place name at left
+{\Large \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\large \bf \name}
+
+\vspace{0.125in}
+
+\begin{minipage}{0.45\linewidth}
+  Cornell University \\
+  Department of Crop and Soil Sciences \\
+  \href{http://www.css.cornell.edu/faculty/buckley/}{Buckley Lab} \\
+  Ithaca, NY 14850
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Phone: & (575) 313-0993 \\
+    Email: & \href{mailto:chuck.peperanney@gmail.com}{\tt chuck.peperanney@gmail.com} \\
+  \end{tabular}
+\end{minipage}
+\section*{Professional Preparation}
+\begin{itemize}
+    \item \textbf{B.S. Engineering (high honors)} - Environmental Science Specialty, Colorado School of Mines 2006.
+    \item \textbf{M.S. Environmental Engineering} - Biotechnology and Environmental Microbiology Emphasis, Colorado School of Mines 2009.
+    \item \textbf{PhD Environmental Science and Engineering Division}, Colorado School of Mines 2012.
+\end{itemize}
+\section*{Relevant Experience}
+\begin{itemize}
+        {\small
+    \item Proficient with \textbf{Python}, \textbf{R}, Latex, Bash
+        scripting and \textbf{Linux system administration}. Experience
+        with Perl, javascript, PostgreSQL, MySQL
+    \item Thorough understanding and fluent with many data
+        science/bioinformatics libraries including IPython notebooks,
+        GGPlot2 (R), Matplotlib (Python), Pandas (Python), phyloseq
+        (R), plyR/dplyR/tidyR (R) , QIIME, Mothur, Khmer, and BioPython.
+        Experience with Bokeh (Python), D3.js (my bl.ocks:
+        \href{http://bl.ocks.org/chuckpr}{bl.ocks.org/chuckpr}), ggvis
+        (R) and lattice (R).
+    \item Currently taking online courses for the \textbf{Data Science
+        Signature Track} with Coursera -- Passed and received verified
+        certificate with distinction for 
+        \href{https://www.coursera.org/verify/TVZ2AX26SJ}{The Data Scientist's Toolbox},
+        \href{https://www.coursera.org/verify/SB25Y92UJ6}{R Programming}, 
+        \href{https://www.coursera.org/account/accomplishments/records/J75Um8uqQcrzBGDg}{Exploratory Data Analysis}, 
+        \href{https://www.coursera.org/account/accomplishments/records/TXAWtJZV6hSe2U8G}{Statistical Inference}, and
+        \href{https://www.coursera.org/account/accomplishments/records/pTVzUYHgx4sbcUmY}{Regression Models}
+        courses.
+    \item Experience developing amplicon sequencing protocols from the
+        ground up for next-generation-sequencing technologies (454 and
+        Illumina) with SSU rRNA genes and Fungal ITS amplicons.
+%    \item Taught laboratory and bioinformatics methods for microbial
+%        community analysis at the Microbial Diversity Course (Marine
+%        Biology Laboratory, Woods Hole, MA).  
+        }
+\end{itemize}
+%\section*{Synergistic Activities}
+%\begin{itemize}
+%    \item \emph{Teaching fellow, Microbial Diversity Course.}  The summers
+%        of 2010, 2011 and 2012 I taught bioinformatics methods and
+%        molecular laboratory techniques as a Microbial Diversity Course
+%        teaching fellow (Marine Biology Laboratory, Woods Hole, MA).
+%        Additionally, I set-up and installed all computational analysis
+%        software on the Linux machines and served as the system
+%        administrator.  I will be returning to the course in the same
+%        capacity for the 2013 summer.  Students are eager to learn a
+%        variety of computational methods and possess a wide range of
+%        prior computational experience.  Students leave with basic
+%        foundational skills to manage the flood of biological sequence
+%        information typical of contemporary microbiology investigations.
+%\end{itemize}
+
+\section*{Appointments}
+\begin{itemize}
+    \item \textbf{Research Assistant}, Environmental Science and Engineering
+        Division, Colorado School of Mines (2006-2012)
+    \item \textbf{Postdoctoral Researcher}, Laboratory of Daniel H Buckley, Department of Crop and Soil
+        Sciences, Cornell University (2013-present)
+    \item \textbf{Teaching Fellow}, Marine Biology Laboratory (Microbial
+        Diversity Course) (2010-2014)
+\end{itemize}
+\section*{Awards and Fellowships}
+\begin{itemize}
+    \item \textbf{2010, 2011, 2012 and 2013 Teaching fellow for the Microbial
+        Diversity Course} at the Marine Biological Laboratory, Woods
+        Hole.  Course Directors: Daniel Buckley and Steve Zinder.
+    \item \textbf{2006 Outstanding Graduating Senior Award}, Colorado School of Mines - Envirnomental Science and Engineering Division
+    \item \textbf{2005 and 2006 Department of Energy Science Undergraduate Laboratory Internship
+        (SULI)} at Idaho National Lab
+    \item \textbf{2006 INL Undergraduate Scholarship}
+\end{itemize}
+\section*{Publications in Refereed Journals}
+\begin{itemize}
+\item Pepe-Ranney C, Berelson WM, Corsetti FA, Treants M, Spear JR.
+    \textbf{Cyanobacterial construction of hot spring siliceous stromatolites in
+    Yellowstone National Park, Wyoming}, 2012, {\it Environmental
+    Microbiology} 14(5), 1182-1197. \href{http://www.ncbi.nlm.nih.gov/pubmed/22356555}{link} 
+\item Berelson WM, Corsetti FA, Pepe-Ranney C, Hammond DE, Beaumont W, Spear
+    JR. \textbf{Hot spring siliceous stromatolites in Yellowstone National Park:
+    assessing growth rates and laminae formation}, 2011, {\it Geobiology}
+    9(5), 411-424. \href{http://www.ncbi.nlm.nih.gov/pubmed/21777367}{link}
+\item Osburn MR, Sessions AL, Pepe-Ranney C, Spear JR. \textbf{Hydrogen-isotopic
+    variability in fatty acids from Yellowstone National Park hot spring
+    microbial communities}, 2011, {\it Geochimica et Cosmochimica Acta}
+    75(17), 4830-4845.
+    \href{http://www.sciencedirect.com/science/article/pii/S0016703711003152}{link}
+\item Br\"{a}uer S, Vuono D, Carmichael M, Pepe-Ranney C, Strom A, Rabinowitz
+    E, Buckley DH, Zinder S. \textbf{Microbial sequencing analyses suggest
+    the presence of a fecal veneer on indoor climbing wall holds.}, 2014, {\it
+    Current Microbiology} \href{http://www.ncbi.nlm.nih.gov/pubmed/24972665}{link}
+\item Pepe-Ranney C, Koechli C, Potrafka R, Garcia-Pichel F, Andam C, Eggleston E, Buckley DH. 
+    \textbf{Non-cyanobacterial diazotrophs mediate dinitrogen fixation in
+        biological soil crusts during early crust formation.}\\ 
+    Accepted by at \textit{ISMEJ}, May 2015. Preprint:\\ 
+    \href{http://dx.doi.org/10.1101/013813}
+    {http://dx.doi.org/10.1101/013813}\\
+    Code for sequence analysis and manuscript figures can be found here:\\
+    \href{http://www.github.com/chuckpr/NSIP_data_analysis}
+    {github.com/chuckpr/NSIP\_data\_analysis}
+\end{itemize}
+\section*{Submitted Journal Articles}
+\begin{itemize}
+    \item Pepe-Ranney C and Hall EK. \textbf{The effect of carbon subsidies on
+        planktonic niche partitioning and recruitment during biofilm
+        assembly.}\\
+        In review at \textit{Frontiers of Aquatic Microbiology}. Preprint: \\
+        \href{http://dx.doi.org/10.1101/013938}
+        {http://dx.doi.org/10.1101/013938}\\
+        Manuscript figures and corresponding code can be found here: \\
+        \href{http://www.github.com/chuckpr/BvP_manuscript_figures/}
+        {github.com/chuckpr/BvP\_manuscript\_figures/}
+\end{itemize}
+\section*{Journal Articles in Preparation}
+\begin{itemize}
+    \item Pepe-Ranney C$^{*}$ and Campbell A$^{*}$, Koechli C, Berthrong S, 
+        Buckley DH. \textbf{Charting the flow of carbon through a soil
+            microbial community with high resolution DNA stable isotope
+            probing.}\\
+        {\small$^{*}$co-first authors}\\
+        Code for manuscript figures can be found here:\\
+        \href{http://nbviewer.ipython.org/github/chuckpr/CSIP_succession_data_analysis}
+        {nbviewer.ipython.org/github/chuckpr/CSIP\_succession\_data\_analysis}
+    \item Pepe-Ranney C, Campbell A, Buckley DH. 
+        \textbf{Community genomics of soil cellulose degraders discovered by nucleic acid stable isotope probing}\\
+        Code for manuscript figures can be found here:\\
+        \href{http://nbviewer.ipython.org/github/chuckpr/CG-SIP}
+        {nbviewer.ipython.org/github/chuckpr/CG-SIP/tree/master/}
+    \item Koechli C, Pepe-Ranney C, Campbell A, Buckley DH. \textbf{Mapping
+        carbon flow through both 16S rRNA and 16S rRNA genes from an
+        agricultural soil using stable isotope probing provides
+        insights into bacterial metabolism.}
+    \item Hahn C, Hall EK, Pepe-Ranney C, Oyler-McCance S.
+        \textbf{Evaluating the gut and cloacal bacterial community of
+        cowbirds: a potential mechanism for enhanced immunity.}\\
+        Code for sequence analysis and manuscript figures can be found here:\\
+        \href{http://nbviewer.ipython.org/github/chuckpr/cowbird}
+        {nbviewer.ipython.org/github/chuckpr/cowbird}
+\end{itemize}
+\section*{Invited Talks}
+\begin{itemize}
+    \item $^{14}$ C and microbial diversity study of Yellowstone siliceous
+        stromatolites: searching for the depositional community.  2009.
+        Microbiology Supergroup, University of Colorado - Boulder.
+    \item Cyanobacterial construction of finely laminated siliceous
+        stromatolites in a Yellowstone National Park hot spring. 2012.
+        Astrobiology Science Conference - Microbes in Lithifying
+        Systems.
+\end{itemize}
+%\section*{Selected Conference Abstracts}
+%\begin{itemize}
+%    \item Pepe-Ranney C, Berelson WM, Corsetti FA, Spear JR. Microbial
+%        Diversity of a modern stromatolite analog in Yellowstone
+%        National Park, Wyoming: Searching for the depositional
+%        community. International Symposium on Microbial Ecology 13,
+%        2010.  
+%    \item Pepe-Ranney C, Berelson WM, Corsetti FA, Spear JR.  Microbial
+%        diversity of a living stromatolite in Yellowstone National Park,
+%        Wyoming: Learning how a stromatolite grows. American Geophysical
+%        Union Fall Meeting, 2010.
+%    \item Osburn M, Sessions A, Pepe-Ranney C, Spear JR. Comparison of
+%        lipidomics and genomics to describe hydrothermal communities in
+%        Yellowstone National Park.  American Geophysical Union Fall
+%        Meeting, 2010.
+%    \item Corsetti FA, Berelson WM, Spear JR, Pepe-Ranney C, Beaumont W,
+%        Mata S. The effects of spring level on stromatolite lamination
+%        and morphology, Yellowstone National Park.  Geological Society
+%        of America 2011.
+%    \item ASM Boston
+%    \item DOE meetings
+%    \item ASM Philidelphia
+%\end{itemize}
+
+%\bigskip
+%
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+  \end{footnotesize}
+\end{center}
+
+\end{document}
+
+% vim: set paste:
