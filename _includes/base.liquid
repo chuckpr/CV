@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
+  <link rel="stylesheet" href="/style.css"/>
+  <script src="https://kit.fontawesome.com/cfcad85295.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="m-auto pl-4 body">
+  {% for author in collections.author %}
+  {% include header.liquid %}
+  {% endfor %}
+  <main class="mt-4 mr-2">
+    {{ content }}
+  </main>
+  {% include sidebar.liquid %}
+  <footer>
+    <div class="h-full flex flex-wrap justify-center content-end">
+      <div class="text-xs text-gray-700 pb-3 italic">updated on: {% version %}</div>
+    </div>
+  </footer>
+  </div>
+  <div class="mx-auto mt-4 body bg-gray-200"></div>
+</body>
+</html>

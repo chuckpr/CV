@@ -1,0 +1,9 @@
+[
+  { "label": "Python" },
+  { "label": "R" },
+  { "label": "JavaScript (D3.js)" },
+  { "label": "AWS" },
+  { "label": "Docker" },
+  { "label": "BASH" },
+  { "label": "Linux" }
+]

@@ -1,0 +1,36 @@
+<aside class="bg-teal-100">
+  <div class="flex flex-wrap content-around h-full">
+    <div class="flex flex-col ml-2">
+      <h3 class="uppercase text-base">Skills</h3>
+      <ul class="font-mono text-gray-800 text-base ml-2 mt-1">
+      {% for skill in skills %}
+        <li class="font-bold">{{ skill.label }}</li>
+      {% endfor %}
+      </ul>
+    </div>
+    <div class="flex flex-col ml-2">
+      <h3 class="uppercase text-base">Links</h3>
+      <ul class="font-mono text-gray-800 text-xs mt-1">
+      {% for link in links %}
+        <li class="py-1">
+          <a href="{{ link.link }}" class="hover:underline">
+            <i class="{{ link.icon }} pr-1"></i>{{ link.label }}
+          </a>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+    <div class="flex flex-col ml-2">
+      <h3 class="uppercase text-base">Contact</h3>
+      <ul class="font-mono text-gray-800 text-xs mt-1">
+      {% for contact in contacts %}
+        <li class="py-1">
+          <a {% if contact.contact %}href="{{ contact.contact }}{% endif %}" class="hover:underline">
+            <i class="{{ contact.icon }} pr-1"></i>{{ contact.label }}
+          </a>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</aside>

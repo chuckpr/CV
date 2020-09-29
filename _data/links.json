@@ -1,0 +1,26 @@
+[
+  {
+    "name": "blog",
+    "label": "chuckpr.github.io",
+    "link": "https://chuckpr.github.io",
+    "icon": "fas fa-globe-americas"
+  },
+  {
+    "name": "GitHub",
+    "label": "github.com/chuckor",
+    "link": "https://gihub.com/chuckpr",
+    "icon": "fab fa-github"
+  },
+  {
+    "name": "Scholar",
+    "label": "Google Scholar",
+    "link": "https://scholar.google.com/citations?user=prJQG0oAAAAJ&hl=en",
+    "icon": "fab fa-google"
+  },
+  {
+    "name": "LinkedIn",
+    "label": "linkedin.com/in/chuckpr",
+    "link": "https://www.linkedin.com/in/chuckpr",
+    "icon": "fab fa-linkedin-in"
+  }
+]

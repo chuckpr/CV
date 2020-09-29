@@ -1,0 +1,20 @@
+<header class="mt-2">
+  <div class="mx2 mt-3 border-l-2 border-teal-600 flex flex-col">
+    <div class="pb-2 px-4 flex flex-row justify-between items-center">
+      <div class="flex flex-col text-gray-800">
+        <div>
+          <span class="font-sans text-2xl font-semibold text-teal-900">{{ author.data.author }}</span>
+        </div>
+        <div>
+          <span class="font-sans text-l pl-2">{{ author.data.title }}</span>
+        </div>
+      </div>
+      <div>
+        <span class="justify-items-end">{{ author.data.location }}</span>
+      </div>
+    </div>
+    <div class="pl-2 text-xs text-gray-700">
+      {{ author.templateContent }}
+    </div>
+  </div>
+</header>
