@@ -1,0 +1,13 @@
+<li>
+  <div class="text-xs" style="text-indent: -10px; padding-left: 10px;">
+    <span>{{ pubData.Authors | boldAuthor }},</span>
+    <a class="hover:underline" href="{{ pubData.URL }}">
+      <span class="font-bold text-teal-800">{{ pubData.Title }}</span>
+    </a>
+    <span>{{ pubData.Year }}</span>
+    <span class="italic">{{ pubData.Publication }}</span>
+    {% if pubData.notes %}
+    <span class="italic font-semibold">({{ pubData.notes }})</span>
+    {% endif %}
+  </div>
+</li>

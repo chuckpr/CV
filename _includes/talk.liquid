@@ -1,0 +1,10 @@
+<li>
+  <div class="text-xs" style="text-indent: -10px; padding-left: 10px;">
+    <span class="font-bold">{{ talkData.Title }}</span>
+    <span>{{ talkData.Year }}</span>
+    <span class="italic">{{ talkData.Conference }}</span>
+    {% if talkData.Location %}
+    <span>{{ talkData.Location }}</span>
+    {% endif %}
+  </div>
+</li>

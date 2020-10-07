@@ -1,7 +1,7 @@
 ---
 date: 2020-12-30
 tags: experience
-institute: University of North Carolina, Gillings School of Public Health
+institute: University of North Carolina, Chapel Hill&mdash;Gillings School of Public Health
 position: Adjunct Faculty Instructor
 begin: 2019
 end: present

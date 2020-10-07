@@ -6,4 +6,4 @@ position: M.S. Environmental Engineering
 begin: 2007
 end: 2009
 ---
-- Biotechnology and environmental microbiology emphasis
+- Biotechnology and Environmental Microbiology emphasis

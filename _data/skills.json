@@ -1,9 +1,11 @@
 [
   { "label": "Python" },
   { "label": "R" },
-  { "label": "JavaScript (D3.js)" },
+  { "label": "JavaScript/D3js" },
+  { "label": "SQL" },
   { "label": "AWS" },
   { "label": "Docker" },
-  { "label": "BASH" },
+  { "label": "HTML/CSS/SVG" },
+  { "label": "Bash" },
   { "label": "Linux" }
 ]
